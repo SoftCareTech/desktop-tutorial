@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purpleHaze"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePointV25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePointV26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".26" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePointV42"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".42" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePointV50"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePointV58"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".58" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePointV74"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".74" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePointV75"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePointV10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePointV90"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.60"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.90"
+
+        />
+
+
+    <TextView
+        android:id="@+id/myNameIs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_baze__rocks"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:background="@color/cyan"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH08"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <!--
+    app:layout_constraintBottom_toTopOf="@+id/guidelineH08" -->
+
+    <ImageView
+        android:id="@+id/myBffAndSister"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="center"
+        android:src="@drawable/bff_and_sister_rose"
+        android:contentDescription="@string/messWithHerYouDie"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinePointV90"
+        app:layout_constraintLeft_toRightOf="@+id/guidelinePointV10"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH08"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH25"
+        />
+
+    <ImageView
+        android:id="@+id/najiaCoatOfArms"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/coat_of_arms_of_nigeria"
+        android:contentDescription="@string/naijaArms"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinePointV25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH25"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH50"
+        />
+
+    <ImageView
+        android:id="@+id/tokyoOlympics2020"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="center"
+        android:src="@drawable/tokyo_olympics_2020_kvac_2020q1"
+        android:contentDescription="@string/tokyoOlympics"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/guidelinePointV75"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH25"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH50"
+        />
+    <ImageView
+        android:id="@+id/shootTheDoor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shoot_and_enter"
+        android:contentDescription="@string/logintosavedata"
+        android:onClick="allButtonClickHandler"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinePointV75"
+        app:layout_constraintLeft_toRightOf="@+id/guidelinePointV25"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH25"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH50"
+        />
+    <!--- start awesome car display -->
+    <ImageView
+        android:id="@+id/hotRod1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/acura_rdx_2019"
+        android:contentDescription="@string/awesomeCar"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinePointV26"
+        app:layout_constraintLeft_toRightOf="@+id/guidelinePointV10"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH50"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH60"
+        />
+
+    <ImageView
+        android:id="@+id/hotRod2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/alfa_romeo_stelvio_quadrifoglio_2020"
+        android:contentDescription="@string/awesomeCar"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinePointV42"
+        app:layout_constraintLeft_toRightOf="@+id/guidelinePointV26"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH50"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH60"
+        />
+
+    <ImageView
+        android:id="@+id/hotRod3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/amg_g_65_suv_v8_2019"
+        android:contentDescription="@string/awesomeCar"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinePointV58"
+        app:layout_constraintLeft_toRightOf="@+id/guidelinePointV42"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH50"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH60"
+        />
+
+    <ImageView
+        android:id="@+id/hotRod4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/aston_martin_db10"
+        android:contentDescription="@string/awesomeCar"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinePointV74"
+        app:layout_constraintLeft_toRightOf="@+id/guidelinePointV58"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH50"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH60"
+        />
+
+    <ImageView
+        android:id="@+id/hotRod5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bmw_i8_2019"
+        android:contentDescription="@string/awesomeCar"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinePointV90"
+        app:layout_constraintLeft_toRightOf="@+id/guidelinePointV74"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH50"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH60"
+        />
+
+    <!--- end awesome car display -->
+
+    <ImageButton
+        android:id="@+id/smallRah"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/small_rah"
+        android:contentDescription="@string/clickToHelloMe"
+        android:visibility="invisible"
+        android:onClick="allButtonClickHandler"
+        app:layout_constraintRight_toLeftOf="@+id/guidelinePointV90"
+        app:layout_constraintLeft_toRightOf="@+id/guidelinePointV10"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineH60"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineH90"
+        />
+    <!-- android:visibility="invisible" -->
+
+    <TextView
+        android:id="@+id/userMessage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:text="@string/codeBehindValue"
+        android:minLines="3"
+        android:scrollHorizontally="true"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidelineH90"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
