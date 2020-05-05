@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">App Tester 2020</string>
+    <string name="my_baze__rocks">Baze U Rock!</string>
+    <string name="hello_Me">Hello Me</string>
+    <string name="logintosavedata">loginToSave</string>
+    <string name="clickToHelloMe">gotoHelloMe</string>
+    <string name="messWithHerYouDie">Mess with her U die</string>
+    <string name="awesomeCar">Hot Rods</string>
+    <string name="naijaArms">Nigeria Coat Of Arms</string>
+    <string name="codeBehindValue">I am not visible</string>
+    <!-- Add for Hello Me UI (Start) -->
+    <string name="welcome">WELCOME</string>
+    <string name="login_id">Person Email</string>
+    <string name="userImage">Click to Load</string>
+    <string name="upload_or_change">Upload Image</string>
+    <string name="phone_Number">14 Digit Phone Number</string>
+    <string name="use_for_whatsapp">Use for WhatsApp</string>
+    <string name="showPassword">Show password</string>
+    <string name="change_password"><![CDATA[Change Password --->]]></string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="validate_entry">Validate  User  Entry</string>
+    <string name="updateProfle">Update Profile</string>
+    <string name="loginImage">Login Image</string>
+    <string name="login">Login</string>
+    <!-- End Add for Hello Me UI -->
+    <!--Add for Login UI (Start) -->
+    <string name="enter">ENTER</string>
+    <string name="click_to_enter">Click to enable login</string>
+    <string name="login_password">Password</string>
+    <string name="registerImage">Register</string>
+    <string name="profile">Profile</string>
+    <string name="todo">Feedback and Suggestions</string>
+    <string name="feedBack">FeedBack</string>
+    <string name="tokyoOlympics">"2020 Tokyo Olympics "</string>
+    <string name="register">Register</string>
+    <!--End Add for Login UI  -->
+</resources>

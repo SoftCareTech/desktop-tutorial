@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="pink">#ff4081</color>
+    <color name="cyan">#18ffff</color>
+    <color name="lightCyan">#00bcd4</color>
+    <color name="blue">#1976d2</color>
+    <color name="white">#ffffff</color>
+    <color name="kvacRed">#ff1744</color>
+    <color name="KvacBrightRed">#f44336</color>
+    <color name="deepRed">#c4001d</color>
+    <color name="kvacGreen">#00c853</color>
+    <color name="kvacYellow">#fefc82</color>
+    <color name="kvacLightGreen">#5efc82</color>
+    <color name="kvacBlue">#1a237e</color>
+    <color name="indigo">#e8eaf6</color>
+    <color name="purpleHaze">#f3e5f5</color>
+</resources>
