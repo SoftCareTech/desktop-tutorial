@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeThings"
+
+    android:background="@color/purpleHaze">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.90" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.93" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineV10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineV90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/users"
+        android:layout_width="0dp"
+        android:minLines="10"
+        android:ems="10"
+        android:hint="@string/type_here"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@id/guidelineV90"
+        android:gravity="start"
+        app:layout_constraintBottom_toTopOf="@id/add"
+        app:layout_constraintStart_toStartOf="@id/guidelineV10"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:layout_height="0dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/cyan"
+        android:gravity="center"
+        android:text="@string/staff"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH10"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/guidelineH93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/add_me_things" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
